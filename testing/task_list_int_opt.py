@@ -30,8 +30,7 @@ def main():
     for i in num_list:
         if objective_val - i in num_list:
             pair_list.append([i, objective_val - i])
-
-        num_list.pop(0)
+                        
 
     print(pair_list)
 
